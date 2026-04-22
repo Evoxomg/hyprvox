@@ -1,0 +1,139 @@
+{
+  "logo": {
+    "source": "arch",
+    "padding": {
+      "top": 4,
+      "right": 4,
+      "left": 4,
+    },
+  },
+
+  "display": {
+    "separator": "  ",
+    "key": {
+      "width": 12,
+    },
+  },
+
+  "modules": [
+    "break",
+    {
+      "type": "custom",
+      "format": "╭─ INFO ──────────────────────────────────────────",
+      "color": "white",
+    },
+    {
+      "type": "title",
+      "key": "│ HOST",
+      "keyColor": "white",
+    },
+    {
+      "type": "custom",
+      "format": "╰────────────────────────────────────────────",
+      "color": "blue",
+    },
+    "break",
+
+    {
+      "type": "custom",
+      "format": "╭─ HARDWARE ──────────────────────────────────────────",
+      "color": "blue",
+    },
+    {
+      "type": "cpu",
+      "key": "│ CPU",
+      "keyColor": "white",
+    },
+    {
+      "type": "gpu",
+      "key": "│ GPU",
+      "keyColor": "white",
+    },
+    {
+      "type": "memory",
+      "key": "│ RAM",
+      "keyColor": "white",
+    },
+    {
+      "type": "command",
+      "key": "│ Disk",
+      "keyColor": "white",
+      "text": "df -B1 --total | awk '/total/ {used=$3; total=$2; pct=$5; printf \"%.2f TiB / %.2f TiB \\033[32m(%s)\\033[0m\\n\", used/1e12, total/1e12, pct}'",
+    },
+    {
+      "type": "custom",
+      "format": "╰────────────────────────────────────────────",
+      "color": "blue",
+    },
+
+    "break",
+
+    {
+      "type": "custom",
+      "format": "╭─ SOFTWARE ──────────────────────────────────────────",
+      "color": "blue",
+    },
+    {
+      "type": "custom",
+      "key": "│ OS",
+      "format": "Arch Linux (btw)",
+      "keyColor": "white",
+    },
+    {
+      "type": "kernel",
+      "key": "│ Kernel",
+      "keyColor": "white",
+    },
+    {
+      "type": "wm",
+      "key": "│ WM",
+      "keyColor": "white",
+    },
+    {
+      "type": "shell",
+      "key": "│ Shell",
+      "keyColor": "white",
+    },
+    {
+      "type": "terminal",
+      "key": "│ Term",
+      "keyColor": "white",
+    },
+    {
+      "type": "custom",
+      "format": "╰────────────────────────────────────────────",
+      "color": "blue",
+    },
+
+    "break",
+
+    {
+      "type": "custom",
+      "format": "╭─ SESSION ──────────────────────────────────────────",
+      "color": "blue",
+    },
+    {
+      "type": "display",
+      "key": "│ Display",
+      "keyColor": "white",
+    },
+    {
+      "type": "uptime",
+      "key": "│ Uptime",
+      "keyColor": "white",
+    },
+    {
+      "type": "command",
+      "key": "│ Age",
+      "keyColor": "white",
+      "text": "birth=$(stat -c %W /); now=$(date +%s); days=$(((now-birth)/86400)); echo \"$days days\"",
+    },
+    {
+      "type": "custom",
+      "format": "╰────────────────────────────────────────────",
+      "color": "blue",
+    },
+
+    "break",
+  ],
+}

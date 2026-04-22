@@ -1,0 +1,34 @@
+UNIT FILE                          STATE   PRESET
+cachyos-iw-set-regdomain.path      enabled disabled
+cups.path                          enabled disabled
+ananicy-cpp.service                enabled disabled
+auditd.service                     enabled disabled
+avahi-daemon.service               enabled disabled
+bluetooth.service                  enabled disabled
+bpftune.service                    enabled disabled
+cups.service                       enabled disabled
+getty@.service                     enabled enabled
+input-remapper.service             enabled disabled
+limine-snapper-sync.service        enabled disabled
+maldet.service                     enabled disabled
+NetworkManager-dispatcher.service  enabled disabled
+NetworkManager-wait-online.service enabled disabled
+NetworkManager.service             enabled disabled
+plasmalogin.service                enabled disabled
+scx_loader.service                 enabled disabled
+systemd-resolved.service           enabled enabled
+systemd-timesyncd.service          enabled enabled
+udisks2.service                    enabled disabled
+ufw.service                        enabled disabled
+avahi-daemon.socket                enabled disabled
+cups.socket                        enabled disabled
+pcscd.socket                       enabled disabled
+systemd-resolved-monitor.socket    enabled disabled
+systemd-resolved-varlink.socket    enabled disabled
+systemd-userdbd.socket             enabled enabled
+remote-fs.target                   enabled enabled
+cachyos-rate-mirrors.timer         enabled disabled
+fstrim.timer                       enabled disabled
+snapper-cleanup.timer              enabled disabled
+
+31 unit files listed.

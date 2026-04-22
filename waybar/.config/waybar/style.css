@@ -1,0 +1,77 @@
+* {
+    border: black;
+    border-radius: 0px;
+    font-family: JetBrainsMono Nerd Font;
+    font-size: 13px;
+    min-height: 30px;
+}
+
+window#waybar {
+    background: rgba(46, 52, 64, 0.95);
+    color: #d8dee9;
+    border: 2px solid black;
+}
+
+.modules-left,
+.modules-center,
+.modules-right {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#workspaces {
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.12);
+    margin: 0 3px;
+    padding: 0 10px;
+}
+#clock {
+    font-weight: bold;
+    margin: 0 3px;
+    padding: 0 10px;
+}
+#pulseaudio {
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.12);
+    margin: 0 3px;
+    padding: 0 10px;
+}
+#network {
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.12);
+    margin: 0 3px;
+    padding: 0 10px;
+}
+#cpu {
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.12);
+    margin: 0 3px;
+    padding: 0 10px;
+}
+#window {
+    font-weight: bold;
+    margin: 0 3px;
+    padding: 0 10px;
+}
+#memory {
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.12);
+    margin: 0 3px;
+    padding: 0 10px;
+}
+#tray {
+    background: rgba(255, 255, 255, 0.12);
+    margin: 0 3px;
+    padding: 0 10px;
+}
+#workspaces button {
+    font-weight: bold;
+    color: white;
+    background: transparent;
+}
+#workspaces button.active {
+    color: black;
+}
+#clock {
+    font-weight: bold;
+}

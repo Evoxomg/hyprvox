@@ -1,0 +1,13 @@
+UNIT FILE                STATE   PRESET
+arch-update-tray.service enabled enabled
+openrazer-daemon.service enabled enabled
+psd.service              enabled enabled
+turing-screen.service    enabled enabled
+wireplumber.service      enabled enabled
+xdg-user-dirs.service    enabled enabled
+p11-kit-server.socket    enabled enabled
+pipewire-pulse.socket    enabled enabled
+pipewire.socket          enabled enabled
+arch-update.timer        enabled enabled
+
+10 unit files listed.
