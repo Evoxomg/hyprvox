@@ -1,0 +1,2 @@
+# hyprvox
+Hyprvox dotfiles repository
