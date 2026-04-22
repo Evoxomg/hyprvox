@@ -1,0 +1,9 @@
+google-chrome
+input-remapper
+mediawriter
+plugin-autenticacao-gov-pt
+polychromatic
+qview
+razercfg
+razergenie
+splix
